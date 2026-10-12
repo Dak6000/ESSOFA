@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ESSOFA SHOP — Qualité, Style, Confiance. Catalogue produits et cotisation par carnet à Atakpamé, Togo.">
+    <link rel="icon" href="assets/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact — ESSOFA SHOP</title>
+</head>
+
+<body>
+    <div class="topbar">
+        <div class="container"><span>ESSOFA SHOP · Atakpamé, à côté de l'agence Nagodé</span><span>Qualité · Style · Confiance</span></div>
+    </div>
+    <nav class="nav">
+        <div class="container navin"><a href="index.html"><img class="logo" src="assets/logo.svg"
+                    alt="ESSOFA SHOP"></a><button class="menu" aria-label="Menu">☰</button>
+            <div class="links"><a href="index.html">Accueil</a><a href="catalogue.html">Catalogue</a><a
+                    href="cotisation.html">Cotisation</a><a href="a-propos.html">À propos</a><a
+                    href="contact.html">Contact</a><a class="btn btn-gold wa" href="#">WhatsApp</a></div>
+        </div>
+    </nav>
+    <header class="page-hero">
+        <div class="container">
+            <div class="eyebrow">Parlons-nous</div>
+            <h1>Contactez ESSOFA SHOP</h1>
+            <p>Pour une commande, une question ou l'ouverture d'un carnet de cotisation, contactez directement la
+                boutique, ou passez nous voir à Atakpamé, à côté de l'agence Nagodé.</p>
+        </div>
+    </header>
+    <main class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="eyebrow">Coordonnées</div>
+                    <div class="contact-row">
+                        <div class="contact-icon">☎</div>
+                        <div><b>Téléphone / WhatsApp</b><br><span class="phone-display"></span></div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-icon">⌖</div>
+                        <div><b>Adresse</b><br>Atakpamé, Togo<br><b>Repère :</b> à côté de l'agence Nagodé</div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-icon">◷</div>
+                        <div><b>Horaires</b><br>Lun–Sam : 08h00–20h00</div>
+                    </div><div class="actions" style="margin-top:20px"><a class="btn btn-gold wa" href="#">Écrire sur WhatsApp</a><a class="btn btn-outline" id="itin" target="_blank" rel="noopener" href="#">Itinéraire</a></div>
+                    <div style="margin-top:25px"><b>Réseaux sociaux</b>
+                        <p><a href="#" style="color:var(--gold2)">Facebook</a> · <a href="#"
+                                style="color:var(--gold2)">Instagram</a> · <a href="#"
+                                style="color:var(--gold2)">TikTok</a></p>
+                    </div>
+                </div>
+                <iframe class="map-embed" id="map" title="Carte : ESSOFA SHOP, Atakpamé" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div><img src="assets/logo.svg" style="width:180px;background:#fff;border-radius:10px" alt="ESSOFA SHOP">
+                <p>Votre boutique multi-univers à Atakpamé. Mode, maison, scolaire, high-tech et véhicules.</p>
+            </div>
+            <div>
+                <h4>Navigation</h4>
+                <p><a href="catalogue.html">Catalogue produits</a></p>
+                <p><a href="cotisation.html">Carnet de cotisation</a></p>
+                <p><a href="a-propos.html">À propos</a></p>
+                <p><a href="contact.html">Contact</a></p>
+            </div>
+            <div>
+                <h4>Nous contacter</h4>
+                <p class="phone-display">+228 96 98 34 53</p>
+                <p>Atakpamé, à côté de l'agence Nagodé</p>
+                <p>Lun–Sam : 08h00–20h00</p>
+                <p><a class="wa" href="#">Commander sur WhatsApp →</a></p>
+            </div>
+        </div>
+        <div class="container copy">© 2026 ESSOFA SHOP. Tous droits réservés.</div>
+    </footer><a class="whatsapp wa" href="#" aria-label="Contacter ESSOFA SHOP sur WhatsApp">✆</a>
+    <script src="js/config.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        const m = document.getElementById("map"), it = document.getElementById("itin"), q = encodeURIComponent(SITE_CONFIG.MAP_QUERY);
+        if (m) m.src = `https://www.google.com/maps?q=${q}&output=embed`;
+        if (it) it.href = `https://www.google.com/maps/search/?api=1&query=${q}`;
+    </script>
+</body>
+
+</html>

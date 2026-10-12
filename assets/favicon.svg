@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 110">
+<rect width="420" height="110" rx="18" fill="#0D1B4B"/>
+<circle cx="58" cy="55" r="32" fill="#E8B832"/>
+<path d="M42 55h32M58 39v32" stroke="#0D1B4B" stroke-width="5" stroke-linecap="round"/>
+<text x="105" y="58" font-family="Georgia,serif" font-size="38" font-weight="700" fill="#fff">ESSOFA</text>
+<text x="106" y="84" font-family="Arial,sans-serif" font-size="18" letter-spacing="5" fill="#E8B832">SHOP</text>
+</svg>
